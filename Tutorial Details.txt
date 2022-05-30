@@ -1,0 +1,9 @@
+Beginner Next.js Tutorial - Coding A News App With Next.js - PortEXE (YouTube Tutorial)
+
+https://www.youtube.com/watch?v=xtItzwYG6oQ&list=PLafbzCEkgeieqkLQx8m4djGJgnsi2CE7x&index=7&ab_channel=PortEXE
+
+Commands
+npm run dev - to start the project on localhost3000
+npm run serve-json - to start the json server for the db.json file on localhost4000
+
+EASY PROJECT
