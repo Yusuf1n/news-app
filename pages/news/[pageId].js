@@ -23,7 +23,7 @@ export default function News({ pageNumber, articles }) {
       <Toolbar />
       <div className={styles.main}>
         <h1>News Feed</h1>
-        {articles.map((article, index) => (
+        {articles?.map((article, index) => (
           <div key={index} className={styles.post}>
             <h1 onClick={() => (window.location.href = article.url)}>
               {article.title}
