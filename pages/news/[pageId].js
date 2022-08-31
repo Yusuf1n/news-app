@@ -29,9 +29,9 @@ export default function News({ pageNumber, articles }) {
               {article.title}
             </h1>
             <p>{article.description}</p>
-            <img src={article.urlToImage} />
+            {!!article.urlToImage && <img src={article.urlToImage} />}
             <div className={styles.reference}>
-              <p>Source - {article.source.name}</p>
+              <p>Source - {article.source.Name}</p>
               <p>
                 Published - {article.publishedAt.substring(11, 16)}
                 {" on "} {article.publishedAt.substring(5, 10)}-2022
